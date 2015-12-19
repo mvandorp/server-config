@@ -31,7 +31,7 @@ if ! getent passwd $USER > /dev/null 2>&1; then
 fi
 
 # Switch to user
-sudo -u $USER bash << EOF
+sudo -H -u $USER bash << EOF
     if [ ! -d /home/$USER/steamcmd ]; then
         mkdir -p /home/$USER/steamcmd
     fi
@@ -56,7 +56,9 @@ sudo -u $USER bash << EOF
     echo "=== Downloading server plugins...                                            ==="
     echo "================================================================================"
     cd /home/$USER
-    git clone https://github.com/mvandorp/server-addons.git
+    if [ ! -d server-addons ]; then
+        git clone https://github.com/mvandorp/server-addons.git
+    fi
     cd /home/$USER/server-addons
     git fetch --all
     git reset --hard origin/master
@@ -67,7 +69,9 @@ sudo -u $USER bash << EOF
     echo "=== Downloading server config...                                             ==="
     echo "================================================================================"
     cd /home/$USER
-    git clone https://github.com/mvandorp/server-config.git
+    if [ ! -d server-config ]; then
+        git clone https://github.com/mvandorp/server-config.git
+    fi
     cd /home/$USER/server-config
     git fetch --all
     git reset --hard origin/master

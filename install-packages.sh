@@ -29,3 +29,4 @@ apt-get install --assume-yes vim
 apt-get install --assume-yes screen
 apt-get install --assume-yes rsync
 apt-get install --assume-yes git
+apt-get install --assume-yes mysql-client
