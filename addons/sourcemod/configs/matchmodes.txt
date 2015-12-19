@@ -1,0 +1,131 @@
+"MatchModes"
+{
+	"4v4"
+	{
+		"promod"
+		{
+			"name" "Promod"
+		}
+		"pmredtown"
+		{
+			"name" "Promod Redtown"
+		}
+		"reflux"
+		{
+			"name" "Reflux"
+		}
+		"rotoblin"
+		{
+			"name" "Rotoblin"
+		}
+		"retro"
+		{
+			"name" "Retro"
+		}
+		"eq"
+		{
+			"name" "Equilibrium"
+		}
+		"hunters"
+		{
+			"name" "Hunters"
+		}
+		"skeet"
+		{
+			"name" "Skeet Or Die"
+		}
+		"witchparty"
+		{
+			"name" "Witch Party"
+		}
+		"witchpartyhc"
+		{
+			"name" "Witch Party Hardcore"
+		}
+		"sky"
+		{
+			"name" "Sky"
+		}
+		"4v4practiceogl"
+		{
+			"name" "Practiceogl"
+		}
+	}
+	"3v3"
+	{
+		"pm3v3"
+		{
+			"name" "3v3 Pro Mod"
+		}
+		"hunters3v3"
+		{
+			"name" "3v3 Hunters"
+		}
+		"skeet3v3"
+		{
+			"name" "3v3 Skeet Or Die"
+		}
+		"eq3v3"
+		{
+			"name" "3v3 Equilibrium"
+		}
+		"witchparty3v3"
+		{
+			"name" "3v3 Witch Party"
+		}
+	}
+	"2v2"
+	{
+		"pm2v2"
+		{
+			"name" "2v2 Pro Mod"
+		}
+		"hunters2v2"
+		{
+			"name" "2v2 Hunters"
+		}
+		"skeet2v2"
+		{
+			"name" "2v2 Skeet Or Die"
+		}
+		"eq2v2"
+		{
+			"name" "2v2 Equilibrium"
+		}
+		"witchparty2v2"
+		{
+			"name" "2v2 Witch Party"
+		}
+	}
+	"1v1"
+	{
+		"pm1v1"
+		{
+			"name" "1v1 Pro Mod"
+		}
+		"hunters1v1"
+		{
+			"name" "1v1 Hunters"
+		}
+		"skeet1v1"
+		{
+			"name" "1v1 Skeet Or Die"
+		}
+		"eq1v1"
+		{
+			"name" "1v1 Equilibrium"
+		}
+		"witchparty1v1"
+		{
+			"name" "1v1 Witch Party"
+		}
+		"deadman"
+		{
+			"name" "1v1 Deadman"
+		}
+		"1v1practiceogl"
+		{
+			"name" "1v1 Practiceogl"
+		}
+	}
+}
