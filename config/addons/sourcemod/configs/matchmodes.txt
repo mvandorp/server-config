@@ -50,6 +50,14 @@
 		{
 			"name" "Practiceogl"
 		}
+		"scavogl4v4"
+		{
+			"name"	"Scavogl"
+		}
+		"scavhunt4v4"
+		{
+			"name"	"Scavogl Hunters"
+		}
 	}
 	"3v3"
 	{
@@ -73,6 +81,14 @@
 		{
 			"name" "3v3 Witch Party"
 		}
+		"scavogl3v3"
+		{
+			"name"	"Scavogl"
+		}
+		"scavhunt3v3"
+		{
+			"name"	"Scavogl Hunters"
+		}
 	}
 	"2v2"
 	{
@@ -95,6 +111,14 @@
 		"witchparty2v2"
 		{
 			"name" "2v2 Witch Party"
+		}
+		"scavogl2v2"
+		{
+			"name"	"Scavogl"
+		}
+		"scavhunt2v2"
+		{
+			"name"	"Scavogl Hunters"
 		}
 	}
 	"1v1"
@@ -126,6 +150,14 @@
 		"1v1practiceogl"
 		{
 			"name" "1v1 Practiceogl"
+		}
+		"scavogl1v1"
+		{
+			"name"	"Scavogl"
+		}
+		"scavhunt1v1"
+		{
+			"name"	"Scavogl Hunters"
 		}
 	}
 }
